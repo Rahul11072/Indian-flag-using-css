@@ -25,5 +25,20 @@
     position :relative;
     top: 250px;
     right: 350px;
-
+}
+@media (max-width:600px) {
+.flag{
+    height:600px;
+    width:300px;
+}
+.flag>div{
+    width: 300px;
+}
+.flag>div>div{
+    left: 50px;
+}
+.flag>div>div>div{
+    width: 300px;
+    right: 50px;
+}
 }
